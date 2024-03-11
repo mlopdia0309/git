@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gastronomía Andaluza</title>
+    </head>
+    <body>
+        <header>
+            <img width="150px" src="./logoimg.png" alt="Logo de la web">
+            <h1 class ="principal" >Gastronomía Andaluza</h1>
+            <link rel="stylesheet" href="./css/estilosand.css"> 
+            <div class="video">
+                <video/mp4 class="video" width="400" height="300" autoplay muted>
+                    <source src="./8 platos típicos de Andalucía.mp4" type="video/mp4">
+                </video>
+            </div>
+            <audio controls>
+                <source src="./once-in-paris-168895.mp3" type="audio/mp3">
+            </audio>
+            <strong>La gastronomía andaluza es una de las más ricas y variadas de España, con una influencia cultural y artística que ha dejado una huella en su cocina. Con su herencia de la cocina de Al-Andalus y su ubicación geográfica privilegiada cerca del mar, Andalucía ofrece una amplia variedad de platos típicos que combinan sabores de tierra y mar. </strong>
+        </header>
+        
+        <nav class="pagina">
+            <ol>
+                <ins><h4 class="menu">Menú</h4></ins>
+                <li><a href="#Tapas">Tapas</a></li>
+                <li><a href="#Pescaito Frito">Pescaito Frito</a></li>
+                <li><a href="#Gazpacho">Gazpacho</a></li>
+                <li><a href="#Postres">Postres</a></li>
+            </ol>
+        </nav>
+        
+        <section class="enlaces">
+            <ul>
+                <ins><h4 class="recetas">Recetas</h4></ins>
+                <li><a href="https://www.rtve.es/television/20230615/recetas-tapas-regiones-provincias-andalucia/2078952.shtml">Recetas de tapas</a></li>
+                <li><a href="https://www.divinacocina.es/pescaito-frito-fritura-andaluza/">Receta de pescaito frito</a></li>
+                <li><a href="https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/receta-de-gazpacho-andaluz-tradicional">Receta de gazpacho</a></li>
+                <li><a href="https://www.20minutos.es/noticia/3613906/0/receta-torrijas-caseras-rapida/">Receta de torrijas</a></li>
+                <li><a href="https://recetasdecocina.elmundo.es/2020/05/tocino-tocinillo-cielo-dulce-tradicional.html">Receta tocino de cielo</a></li>
+                <li><a href="https://www.directoalpaladar.com/postres/pestinos-andaluces-receta-de-dulce-de-navidad">Receta pestiños</a></li>
+            </ul>
+        </section>
+        
+        <section class="pagina">
+            <ol class="platos">
+                <li>
+                    <h2 id="Tapas">Tapas</h2>
+                    <p>Las <strong>tapas</strong> son una parte esencial de la gastronomía andaluza. En muchos bares y restaurantes, se sirven pequeñas porciones de comida como acompañamiento de las bebidas. Algunas tapas populares incluyen las gambas al ajillo, el salmorejo y las aceitunas rellenas.</p>
+                    <img width="300px" src="./tapas.jpeg" alt="Plato de tapas">
+                    <iframe width="300" height="165"
+                        src="https://www.youtube.com/embed/p2u65RBwCjs?">
+                    </iframe>
+                </li>
+                
+                <li>
+                    <h2 id="Pescaito Frito">Pescaito Frito</h2>
+                    <p>El <strong>pescaito frito</strong> es otro plato emblemático de la cocina andaluza. Consiste en pescado fresco, generalmente boquerones o calamares, que se fríen en aceite de oliva hasta que quedan crujientes y dorados. Se suele servir con una pizca de sal y limón.</p>
+                    <img width="300px" src="./p.jpg" alt="Plato de pescaito frito">
+                    <iframe width="300" height="190"
+                        src="https://www.youtube.com/embed/zuk0_sxIQmk?">
+                    </iframe> 
+                </li>
+                
+                <li>
+                    <h2 id="Gazpacho">Gazpacho</h2>
+                    <p>El <strong>gazpacho</strong> es una sopa fría muy popular en Andalucía, especialmente durante los meses de verano. Está hecho principalmente con tomates, pepinos, pimientos, aceite de oliva, vinagre y ajo. Se suele servir bien frío y es refrescante y nutritivo.</p>
+                    <img width="300px" src="./gazpacho-andaluz.jpg" alt="plato de gazpacho">
+                    <iframe width="300" height="195"
+                        src="https://www.youtube.com/embed/2XlvI-aNcsU?">
+                    </iframe>
+                </li>
+                
+                <li>
+                    <h2 id="Postres">Postres</h2>
+                    <p>La gastronomía andaluza también ofrece una amplia variedad de postres deliciosos. Algunos de los más famosos son <strong>las torrijas, el tocino de cielo y el pestiño</strong>. Estos dulces son perfectos para endulzar el paladar después de una comida.</p>
+                    <img width="212px" src="./torrijas.jpeg" alt="plato de torrijas"> <img width="190px" src="./tocino.jpeg" alt="tocino de cielo"> <img width="170px" src="./pestiños.jpeg" alt="Pestiño">
+                    
+                    <iframe width="200" height="120"
+                        src="https://www.youtube.com/embed/fx_eUrEuHCI?">
+                    </iframe>
+                </li>
+            </ol>
+        </section>
+        <section class="form">
+            <form>
+                <label class="favorito">¿Cuál es tu plato favorito de estos?</label>
+                <select class="favorito" name="favorito">
+                    <option value="tapas">tapas</option>
+                    <option value="pescaito frito">pescaito frito</option>
+                    <option value="gazpacho">gazpacho</option>
+                    <option value="postres">postres</option>
+                </select>
+                <button type="submit">Enviar</button>
+              </form>  
+        </section>
+        <section class="contactar">
+            <form>
+                <label for="telefono">Introduzca su teléfono y contactamos con usted:</label>
+                <input type="text" id="telefono" name="telefono"><br>
+                <button type="submit">Contacta conmigo</button>
+            </form>
+        </section>
+    </body>
+</html>
